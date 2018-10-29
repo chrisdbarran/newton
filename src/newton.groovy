@@ -20,7 +20,7 @@ while ( ans > 0.0001)
     ans = Math.abs(myFunc(x))
 
     // Print out the values in this iteration.
-    println "Iteration: ${n}: new x :  ${x} for myFunc: ${root} "
+    println "Iteration: ${n}: new x :  ${x} for myFunc: ${ans} "
 
     // Increment the count of the iteration.
     n++
